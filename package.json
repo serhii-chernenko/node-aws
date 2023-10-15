@@ -1,0 +1,38 @@
+{
+  "name": "aws",
+  "version": "1.0.0",
+  "description": "Node.js app on AWS EC2 Ubuntu server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "dev": "nodemon app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serhii-chernenko/node-aws.git"
+  },
+  "keywords": [
+    "aws",
+    "ec2",
+    "ubuntu",
+    "linux",
+    "ci",
+    "cd",
+    "node",
+    "express",
+    "docker",
+    "ansible"
+  ],
+  "author": "Serhii Chernenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serhii-chernenko/node-aws/issues"
+  },
+  "homepage": "https://github.com/serhii-chernenko/node-aws#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
